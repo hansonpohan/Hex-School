@@ -1,0 +1,267 @@
+.banner {
+    width: 1920px;
+    height: 958px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true);
+    background-position: 0 0;
+}
+
+.banner p {
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: left;
+    font: italic normal bold 24px/42px Roboto;
+}
+
+.banner p:nth-child(1) {
+    padding-top: 308px;
+    padding-left: 806px;
+    line-height: 32px;
+}
+
+.banner p:nth-child(3) {
+    padding-left: 819px;
+    line-height: 36px;
+}
+
+.banner h1 {
+    font-size: 80px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 32px;
+    padding-left: 806px;
+    line-height: 106px;
+    font: italic normal 900 80px/106px Roboto;
+}
+
+.banner ul {
+    display: flex;
+    justify-content: center;
+}
+
+.banner ul li {
+    margin-right: 16px;
+    margin-top: 40px;
+}
+
+.banner ul li a {
+    display: block;
+}
+
+
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    margin-top: 56px;
+    font-size: 64px;
+    line-height: 84px;
+    font: italic normal medium 64px/84px Roboto;
+}
+
+.about img {
+    margin-top: 40px;
+}
+
+.about p {
+    font-size: 24px;
+    line-height: 32px;
+    font: italic normal bold 24px/36px Roboto;
+}
+
+.about p:nth-child(1) {
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.about p:nth-child(3) {
+    margin-top: 8px;
+    line-height: 36px;
+    border: 1px;
+}
+
+.about hr {
+    width: 384px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.about ul li {
+    margin-bottom: 28px;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: italic normal bold 24px/36px Roboto;
+}
+
+.about ul li div {
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    background-color: #891818;
+    margin-right: 16px;
+}
+
+.brand {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 56px;
+}
+
+.brand h2 {
+    font-size: 64px;
+    padding-top: 56px;
+    padding-bottom: 12px;
+    line-height: 84px;
+    font: italic normal medium 64px/84px Roboto;
+}
+
+.brand p {
+    font-size: 24px;
+    padding-bottom: 32px;
+    font: italic normal medium 24px/42px Roboto;
+}
+
+.brand p:nth-child(3) {
+    line-height: 30px;
+    font: italic normal medium 20px/30px Roboto;
+}
+
+.firstPhoto {
+    padding-top: 36px;
+    padding-bottom: 40px;
+}
+
+.secondPhoto {
+    padding-bottom: 160px;
+}
+
+.secondPhoto img {
+    margin-left: 24px;
+}
+
+.works {
+    color: #000000;
+    text-align: center;
+}
+
+.works h2 {
+    font-size: 64px;
+    line-height: 84px;
+    margin-top: 56px;
+    margin-bottom: 16px;
+    font: italic normal medium 64px/84px Roboto;
+}
+
+.works p {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 56px;
+    font: italic normal medium 20px/30px Roboto;
+}
+
+.post img {
+    margin-right: 24px;
+}
+
+.postalt {
+    display: flex;
+    margin-top: 16px;
+}
+
+.postalt p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.postalt p:nth-child(1) {
+    margin-left: 486px;
+    margin-right: 276px;
+}
+
+.postalt p:nth-child(2) {
+    margin-right: 276px;
+}
+
+.postalt p:nth-child(3) {
+    margin-right: 486px;
+}
+
+.photography img {
+    margin-right: 24px;
+}
+
+.photographyalt {
+    display: flex;
+    margin-top: 16px;
+}
+
+.photographyalt p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.photographyalt p:nth-child(1) {
+    margin-left: 588px;
+    margin-right: 480px;
+}
+
+.photographyalt p:nth-child(2) {
+    margin-right: 588px;
+}
+
+.design img {
+    margin-right: 24px;
+}
+
+.designalt {
+    display: flex;
+    margin-top: 16px;
+}
+
+.designalt p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.designalt p:nth-child(1) {
+    margin-left: 463px;
+    margin-right: 253px;
+}
+
+.designalt p:nth-child(2) {
+    margin-right: 276px;
+}
+
+.designalt p:nth-child(3) {
+    margin-right: 486px;
+}
+
+.contact {
+    margin-top: 144px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    font: italic normal medium 64px/84px Roboto;
+}
+
+.contact h2 {
+    padding-top: 64px;
+    padding-bottom: 16px;
+    font-size: 64px;
+    line-height: 84px;
+}
+
+.contact p {
+    padding-bottom: 16px;
+    font-size: 24px;
+    line-height: 33px;
+    font: italic normal medium 24px/36px Roboto;
+}
+
+.contact p:nth-child(3) {
+    padding-bottom: 64px;
+}
