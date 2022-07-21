@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .banner {
     width: 1920px;
     height: 958px;
@@ -9,7 +13,6 @@
     font-size: 24px;
     color: #FFFFFF;
     text-align: left;
-    font: italic normal bold 24px/42px Roboto;
 }
 
 .banner p:nth-child(1) {
@@ -30,7 +33,6 @@
     margin-bottom: 32px;
     padding-left: 806px;
     line-height: 106px;
-    font: italic normal 900 80px/106px Roboto;
 }
 
 .banner ul {
@@ -56,7 +58,6 @@
     margin-top: 56px;
     font-size: 64px;
     line-height: 84px;
-    font: italic normal medium 64px/84px Roboto;
 }
 
 .about img {
@@ -66,7 +67,6 @@
 .about p {
     font-size: 24px;
     line-height: 32px;
-    font: italic normal bold 24px/36px Roboto;
 }
 
 .about p:nth-child(1) {
@@ -93,7 +93,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font: italic normal bold 24px/36px Roboto;
 }
 
 .about ul li div {
@@ -116,18 +115,15 @@
     padding-top: 56px;
     padding-bottom: 12px;
     line-height: 84px;
-    font: italic normal medium 64px/84px Roboto;
 }
 
 .brand p {
     font-size: 24px;
     padding-bottom: 32px;
-    font: italic normal medium 24px/42px Roboto;
 }
 
 .brand p:nth-child(3) {
     line-height: 30px;
-    font: italic normal medium 20px/30px Roboto;
 }
 
 .firstPhoto {
@@ -153,14 +149,12 @@
     line-height: 84px;
     margin-top: 56px;
     margin-bottom: 16px;
-    font: italic normal medium 64px/84px Roboto;
 }
 
 .works p {
     font-size: 24px;
     line-height: 30px;
     margin-bottom: 56px;
-    font: italic normal medium 20px/30px Roboto;
 }
 
 .post img {
@@ -245,7 +239,6 @@
     background-color: #000000;
     color: #FFFFFF;
     text-align: center;
-    font: italic normal medium 64px/84px Roboto;
 }
 
 .contact h2 {
@@ -259,7 +252,6 @@
     padding-bottom: 16px;
     font-size: 24px;
     line-height: 33px;
-    font: italic normal medium 24px/36px Roboto;
 }
 
 .contact p:nth-child(3) {
