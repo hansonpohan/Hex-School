@@ -3,50 +3,55 @@ body {
 }
 
 .banner {
-    width: 1920px;
-    height: 958px;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true);
     background-position: 0 0;
 }
 
-.banner p {
+.header {
+    text-align: center;
+    padding-top: 308px;
+}
+
+.text {
+    font-size: 24px;
+}
+
+.header p {
+    line-height: 32px;
     font-size: 24px;
     color: #FFFFFF;
-    text-align: left;
+    font-style: italic;
+    font-weight: 700;
 }
 
-.banner p:nth-child(1) {
-    padding-top: 308px;
-    padding-left: 806px;
-    line-height: 32px;
-}
-
-.banner p:nth-child(3) {
-    padding-left: 819px;
-    line-height: 36px;
-}
-
-.banner h1 {
+.header h1 {
     font-size: 80px;
     color: #FFFFFF;
-    text-align: left;
     margin-bottom: 32px;
-    padding-left: 806px;
     line-height: 106px;
+    font-style: italic;
+    font-weight: 700;
 }
 
-.banner ul {
+.header ul {
     display: flex;
     justify-content: center;
 }
 
-.banner ul li {
+.header ul li {
     margin-right: 16px;
     margin-top: 40px;
 }
 
-.banner ul li a {
+.header ul li a {
     display: block;
+}
+
+.header ul li:hover {
+    background-color: gray;
 }
 
 
@@ -58,48 +63,71 @@ body {
     margin-top: 56px;
     font-size: 64px;
     line-height: 84px;
+    font-style: italic;
+    font-weight: 700;
 }
 
 .about img {
     margin-top: 40px;
 }
 
-.about p {
+.about ul li {
     font-size: 24px;
     line-height: 32px;
 }
 
-.about p:nth-child(1) {
+.about ul li:nth-child(1) {
     margin-top: 20px;
     margin-bottom: 4px;
 }
 
-.about p:nth-child(3) {
+.about ul li:nth-child(3) {
     margin-top: 8px;
     line-height: 36px;
-    border: 1px;
+    margin-bottom: 28px;
 }
 
-.about hr {
-    width: 384px;
-    margin-top: 26px;
-    margin-bottom: 26px;
+.about ul:nth-child(3) {
+    margin-top: 8px;
+}
+
+.about ul:nth-child(4) {
+    display: inline-block;
+    border-top: 1px solid black;
+}
+
+.about ul:nth-child(4) li {
+    padding-top: 28px;
 }
 
 .about ul li {
-    margin-bottom: 28px;
     font-size: 24px;
     line-height: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-style: italic;
+    font-weight: 700;
 }
 
-.about ul li div {
+.about p {
+    font-size: 24px;
+    line-height: 42px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.dot {
+    display: flex;
+    align-items: center;
+}
+
+.dot::before {
+    content: "";
     width: 22px;
     height: 22px;
-    border-radius: 100%;
     background-color: #891818;
+    border-radius: 50%;
     margin-right: 16px;
 }
 
@@ -115,10 +143,19 @@ body {
     padding-top: 56px;
     padding-bottom: 12px;
     line-height: 84px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.brand h3 {
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 32px;
+    font-style: italic;
 }
 
 .brand p {
-    font-size: 24px;
+    font-size: 20px;
     padding-bottom: 32px;
 }
 
@@ -148,12 +185,14 @@ body {
     font-size: 64px;
     line-height: 84px;
     margin-top: 56px;
-    margin-bottom: 16px;
+    font-style: italic;
+    font-weight: 700;
 }
 
-.works p {
-    font-size: 24px;
+.works p:nth-child(2) {
+    font-size: 20px;
     line-height: 30px;
+    margin-top: 16px;
     margin-bottom: 56px;
 }
 
@@ -161,77 +200,20 @@ body {
     margin-right: 24px;
 }
 
-.postalt {
+.works ul {
     display: flex;
-    margin-top: 16px;
+    justify-content: center;
 }
 
-.postalt p {
-    font-size: 20px;
-    line-height: 28px;
-}
-
-.postalt p:nth-child(1) {
-    margin-left: 486px;
-    margin-right: 276px;
-}
-
-.postalt p:nth-child(2) {
-    margin-right: 276px;
-}
-
-.postalt p:nth-child(3) {
-    margin-right: 486px;
-}
-
-.photography img {
+.works ul li {
     margin-right: 24px;
 }
 
-.photographyalt {
-    display: flex;
+.works ul p {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 48px;
     margin-top: 16px;
-}
-
-.photographyalt p {
-    font-size: 20px;
-    line-height: 28px;
-}
-
-.photographyalt p:nth-child(1) {
-    margin-left: 588px;
-    margin-right: 480px;
-}
-
-.photographyalt p:nth-child(2) {
-    margin-right: 588px;
-}
-
-.design img {
-    margin-right: 24px;
-}
-
-.designalt {
-    display: flex;
-    margin-top: 16px;
-}
-
-.designalt p {
-    font-size: 20px;
-    line-height: 28px;
-}
-
-.designalt p:nth-child(1) {
-    margin-left: 463px;
-    margin-right: 253px;
-}
-
-.designalt p:nth-child(2) {
-    margin-right: 276px;
-}
-
-.designalt p:nth-child(3) {
-    margin-right: 486px;
 }
 
 .contact {
@@ -246,14 +228,31 @@ body {
     padding-bottom: 16px;
     font-size: 64px;
     line-height: 84px;
+    font-style: italic;
+    font-weight: 700;
 }
 
-.contact p {
+.contact li {
     padding-bottom: 16px;
     font-size: 24px;
     line-height: 33px;
+    font-style: italic;
 }
 
-.contact p:nth-child(3) {
+.contact li a {
+    padding-bottom: 16px;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.contact li a:hover {
+    padding-bottom: 16px;
+    font-size: 24px;
+    line-height: 33px;
+    color: blue;
+}
+
+.contact ul li:nth-child(2) {
     padding-bottom: 64px;
 }
